@@ -83,6 +83,7 @@ public class GestureRecognizer : MonoBehaviour, IPointerDownHandler, IPointerUpH
 
     // ---------------- Dibujado ----------------
 
+
     private void StartNewLine()
     {
         GameObject lineObj = new GameObject("DrawLine");

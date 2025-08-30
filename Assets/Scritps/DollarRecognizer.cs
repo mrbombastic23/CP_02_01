@@ -54,7 +54,7 @@ public class DollarRecognizer
     public int LoadTemplatesFromDisk()
     {
         templates.Clear();
-        string path = "D:/mmy unity notocar/Gestures";// aqui pegas la ruta mano
+        string path = "D:/mmy-unity-notocar/Gestures";// aqui pegas la ruta mano
         if (!Directory.Exists(path)) return 0;
 
         string[] files = Directory.GetFiles(path, "*.json");
@@ -77,7 +77,7 @@ public class DollarRecognizer
     // Reemplaza el método existente SaveTemplateToDisk(...) por este:
     private void SaveTemplateToDisk(GestureTemplate template)
     {
-        string dir = Path.Combine(Application.persistentDataPath, "Gestures");
+        string dir = "D:/mmy-unity-notocar/Gestures";
         if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
 
         // Contar archivos existentes que empiecen por el nombre (A.json, A_1.json, A_2.json, ...)

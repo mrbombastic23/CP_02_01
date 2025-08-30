@@ -12,5 +12,6 @@ public class Gesture
     {
         Name = name;
         Points = new List<Vector2>(points);
+
     }
 }

@@ -36,7 +36,8 @@ public class EnemySpawner : MonoBehaviour
 
     private string RandomWord()
     {
-        string[] words = { "CAT", "DOG", "APPLE", "HOUSE", "FISH", "TREE" };
+        string[] words = { "CAT", "DOG", "APPLE", "HOUSE", "FISH", "TREE", "PAPU" };
+
         return words[Random.Range(0, words.Length)];
     }
 

@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     public TextMeshProUGUI wordText;
 
     private Transform player;
-    private float speed = 0.5f;
+    private float speed = 0.1f;
 
     public void Init(string letter, string word, Transform player)
     {
@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
 
         gameObject.tag = "Enemy";
     }
+
 
     private void Update()
     {
